@@ -1,6 +1,6 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: Casiano Rodriguez-Leon
+email: crguezl@ull.edu.es
 image: "/images/avatar.png"
 description: this is meta description
 social:
