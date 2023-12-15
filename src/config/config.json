@@ -5,8 +5,8 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo": "/images/esit-original.png",
+    "logo_darkmode": "/images/esit-positivo.png",
     "logo_width": "150",
     "logo_height": "27",
     "logo_text": "Nextplate"
@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "[Casiano](https://github.com/crguezl)"
   },
 
   "navigation_button": {

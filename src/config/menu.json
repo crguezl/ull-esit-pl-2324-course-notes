@@ -13,24 +13,55 @@
       "url": "/elements"
     },
     {
-      "name": "Pages",
+      "name": "GitHub",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
+          "name": "Organization",
           "url": "/contact"
         },
         {
-          "name": "Blog",
+          "name": "Teams",
           "url": "/blog"
         },
         {
-          "name": "Authors",
+          "name": "Classroom",
           "url": "/authors"
         },
         {
-          "name": "Categories",
+          "name": "Template Org",
+          "url": "/categories"
+        },
+        {
+          "name": "Tags",
+          "url": "/tags"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Organization",
+          "url": "/contact"
+        },
+        {
+          "name": "Teams",
+          "url": "/blog"
+        },
+        {
+          "name": "Classroom",
+          "url": "/authors"
+        },
+        {
+          "name": "Template Org",
           "url": "/categories"
         },
         {
