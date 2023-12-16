@@ -16,6 +16,8 @@ import {
   FaRegFolder,
   FaRegUserCircle,
 } from "react-icons/fa/index.js";
+import * as pkg from "template-file"
+let render = pkg.render;
 
 const { blog_folder } = config.settings;
 
@@ -37,7 +39,9 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
   const posts: Post[] = getSinglePage(blog_folder);
   const post = posts.filter((page) => page.slug === params.single)[0];
 
-  const { frontmatter, content } = post;
+  let { frontmatter, content } = post;
+
+  content = render(content || '', frontmatter as any);
   const {
     title,
     meta_title,
@@ -138,7 +142,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
 
           {/* <!-- Related posts --> */}
           <div className="section pb-0">
-            <h2 className="h3 mb-12 text-center">Related Posts</h2>
+            <h2 className="h3 mb-12 text-center">Very Related Posts</h2>
             <div className="row justify-center">
               {similarPosts.map((post) => (
                 <div key={post.slug} className="lg:col-4 mb-7">

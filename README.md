@@ -91,6 +91,12 @@ docker run -p 3000:3000 nextplate
 
 <!-- reporting issue -->
 
+## Deploy at Vercel
+
+Use your personal account to deploy.
+
+* [Deploy](https://ull-esit-pl-2324-course-notes.vercel.app/)
+
 ## 🐞 Reporting Issues
 
 We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/nextplate/issues). It’s possible someone has already reported the same problem.
